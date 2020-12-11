@@ -196,16 +196,6 @@ ol {
 * LAPTOP
 ########*/
 @media screen and (min-width: 769px) {
-    /* .card:nth-child(4n+1),
-    .card:nth-child(4n+4) {
-        width: 57%;
-    }
-
-    .card:nth-child(4n+2),
-    .card:nth-child(4n+3) {
-        width: 42.5%;
-    } */
-
     .card{
         width: 33%;
     }
