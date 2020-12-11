@@ -190,3 +190,60 @@ ol {
         width: 49%;
     }
 }
+
+
+/*#######
+* LAPTOP
+########*/
+@media screen and (min-width: 769px) {
+    /* .card:nth-child(4n+1),
+    .card:nth-child(4n+4) {
+        width: 57%;
+    }
+
+    .card:nth-child(4n+2),
+    .card:nth-child(4n+3) {
+        width: 42.5%;
+    } */
+
+    .card{
+        width: 33%;
+    }
+
+    .header {
+        float: left;
+        width: 250px;
+        background: #f5f5f5;
+        border-right: 1px solid rgba(0,0,0,.1);
+        position: fixed;
+        height: 100vh;
+    }
+    .nav .title {
+        display: block;
+        text-align: center;
+    }
+    .nav-links {
+        flex-direction: column;
+    }
+
+    .page {
+        padding-left: 250px;
+    }
+    .content-focus {
+        display: flex;
+        justify-content: flex-end;
+        padding-top: 2em;
+    }
+    .content-picture {
+        width: 60%;
+    }
+    .content-titles {
+        width: 35%;
+    }
+    .content-title {
+        text-align: right;
+    }
+    .footer {
+        padding-left: 250px;
+    }
+}
