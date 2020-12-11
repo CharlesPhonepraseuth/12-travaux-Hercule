@@ -1,0 +1,159 @@
+/*#############
+* MOBILE FIRST
+##############*/
+body {
+    background:#eee;
+    font-family: 'Asap', sans-serif;
+}
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    width: 95%;
+    margin: auto;
+    background:#fff;
+}
+
+/*#######
+* HEADER
+#########*/
+.header {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.search {
+    padding: 1em;
+    background-color: #f39c12
+}
+.search-input {
+    width: 100%;
+    border-radius: 1.5em;
+    border: none;
+    padding: .5em;
+    font-size: 1em;
+}
+.nav .title {
+    display: none;
+}
+.nav-links {
+    width: 95%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+.nav-item {
+    padding: .7em;
+    background-color: #ddd;
+    margin: .5em;
+    border-radius: .5em;
+}
+
+/*#####
+* MAIN
+######*/
+.page {
+    width: 95%;
+    margin: auto;
+}
+
+.content-title {
+    text-align: center;
+}
+.content-title--main {
+    font-size: 2em;
+    font-weight: bold;
+    padding: .5em;
+    border-top: 2px solid #f39c12;
+}
+.content-title--sub {
+    font-size: 1.7em;
+    font-weight: bold;
+    color: #aaa;
+    padding: .5em;
+}
+.content-focus {
+    border-bottom: 2px solid #ccc;
+}
+.content-picture {
+    position: relative;
+    width: 95%;
+    margin: auto;
+    margin-bottom: 1em;
+}
+.picture {
+    width: 100%;
+    border-radius: .5em;
+}
+.picture-desc {
+    position: absolute;
+    width: 100%;
+    bottom: 0.2rem;
+    color: white;
+    padding: .5em;
+    background-color: rgba(0, 0, 0, 0.300);
+    border-bottom-left-radius: .5em;
+    border-bottom-right-radius: .5em;
+}
+.content-quote {
+    border-top: 2px solid #ccc;
+    padding: 1em;
+}
+p {
+    padding: 1em;
+    line-height: 1.4;
+    text-align: justify;
+}
+h3 {
+    font-size: 1.2em;
+    font-weight: bold;
+    margin: .5em;
+}
+ol {
+    list-style-type: decimal;
+    margin-left: 1.5em;
+    line-height: 1.5;
+    margin-bottom: 1em;
+}
+
+/*#######
+* SECTION
+########*/
+.articles {
+    margin-bottom: 1em; 
+}
+.title {
+    font-size: 1.5em;
+    font-weight: bold;
+    padding: .5em 0;
+    text-align: left;
+    border-bottom: 2px solid #f39c12;
+}
+.card {
+    padding-top: 1em;
+}
+.btn {
+    padding: .5em;
+    color: #f39c12;
+    border-radius: 2em;
+    display: inline-block;
+    border: 3px solid #f39c12;
+    font-weight: bold;
+    transition: background-color .3s ease, color .3s ease;
+}
+.btn:hover {
+    background-color: #f39c12;
+    color: white;
+    transition-duration: 3s;
+}
+
+/*#######
+* FOOTER
+########*/
+.footer {
+    background: #111;
+    padding: 4rem 2rem;
+    text-align: center;
+    color: #aaa;
+}
